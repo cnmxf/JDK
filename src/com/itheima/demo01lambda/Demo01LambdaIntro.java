@@ -25,7 +25,15 @@ public class Demo01LambdaIntro {
         }).start();
         // Lambda表达式的好处: 可以简化匿名内部类,让代码更加精简
 
-
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("新线程执行");
+            }
+        }).start();
+        new Thread(()->{
+            System.out.println("Lambda执行");
+        }).start();
 
     }
 }
