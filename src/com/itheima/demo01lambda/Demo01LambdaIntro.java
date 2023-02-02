@@ -24,6 +24,9 @@ public class Demo01LambdaIntro {
             System.out.println("Lambda表达式执行啦");
         }).start();
         // Lambda表达式的好处: 可以简化匿名内部类,让代码更加精简
+
+
+
     }
 }
 
